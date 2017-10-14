@@ -9,6 +9,15 @@ main {
 }
 
 header {
-  content:url(http://assets1.bigthink.com/system/idea_thumbnails/60118/size_1024/computer_code.jpg?1448159143);
-  max-height: 300px;
+  background-color: #6e79ee;
+  color: white;
+}
+
+.devicon-git-plain {
+  max-width: 4em;
+  margin: 0 16px;
+}
+
+#projects {
+  background-color: #eeec6e;
 }
