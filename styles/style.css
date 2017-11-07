@@ -46,6 +46,11 @@ img.profile-pic {
   min-width: 230px;
 }
 
-.card.horizontal .card-image img{
+.card.horizontal .card-image img {
   height: 230px;
+}
+
+button.btn {
+  float: right;
+  margin: 0 10px;
 }
