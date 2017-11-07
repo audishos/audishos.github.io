@@ -4,6 +4,7 @@
     <title>Audisho Sada</title>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 
     <!-- Compiled and minified JavaScript -->
@@ -22,8 +23,8 @@
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="#">Summary</a></li>
           <li><a href="#">Skills</a></li>
-          <li><a href="#">Education</a></li>
           <li><a href="#">Projects</a></li>
+          <li><a href="#">Education</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
@@ -31,11 +32,22 @@
 
     <header>
       <div class="container">
-        <h1>Audisho Sada</h1>
-        <h3>Full Stack Web Developer</h3>
+        <img class="profile-pic" src="./images/portrait.jpg" alt="Audisho Sada">
+        <div class="profile-headers">
+          <h1>Audisho Sada</h1>
+          <h3>Full Stack Web Developer</h3>
+        </div>
       </div>
     </header>
 
+    <div id="summary">
+      <div class="container">
+        <section>
+          <h2>Summary</h2>
+          <p>Former Product Manager and QA Analyst turned developer with a knack for problem solving and motivation for building solutions that improve the lives of others. Passionate about coding and a college graduate in this field, took the steps towards turning it into a career by enrolling in the Web Development Bootcamp at Lighthouse Labs. Experienced at working in an Agile environment collaborating with others to plan, build, and test product features. Excited to continue personal development as a software developer and eager to gain some real-world experience and make a positive impact on your team! Lover of craft beer, good coffee, and fixie bikes.</p>
+        </section>
+      </div>
+    </div>
     <div id="tech-skills">
       <div class="container">
         <section>
@@ -160,9 +172,176 @@
           <h2>Projects</h2>
         </section>
 
-        <article>
-          <h3>Tweeter</h3>
-        </article>
+        <div class="row">
+
+
+          <div class="col s12 m6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="./images/even_better.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Even Better<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/MilesWilde/evenBetter" target="_blank">GITHUB LINK</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Even Better<i class="material-icons right">close</i></span>
+                <h5>Rails | ReactJS | PostgreSQL</h5>
+                <p>
+                  A personal betting app that allows users to create bets about absolutely anything.
+                  Users can invite their friends to compete against, invite a  3rd party to pick the result and trash talk the whole way through!
+                  Betting on major league sports is also available using data from MSNBC's stats API.
+                  Implemented data models and relations, JWT based authentication, chat using Rails Action Cable, the bet details page and several other features.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="./images/jungle.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Jungle<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/audishos/jungle-rails" target="_blank">GITHUB LINK</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Jungle<i class="material-icons right">close</i></span>
+                <h5>Ruby | Rails</h5>
+                <p>
+                  A mini e-commerce application built with Rails 5.1.
+                  Implemented several additional features including user registration & authentication, a product review system, completed order summary and confirmation email.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="./images/chatty.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Chatty<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/audishos/lhl-chatty" target="_blank">GITHUB LINK</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Chatty<i class="material-icons right">close</i></span>
+                <h5>Webpack | ReactJS | WS | NodeJS | Express | Fetch | Giphy API</h5>
+                <p>
+                  A simple, full stack, single-page chat app built using NodeJS 8 & ReactJS.
+                  Implemented the majority of the functionality including sending & receiving chat messages using WS and
+                  /giphy using the Giphy API.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="./images/map_attack.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Map Attack!<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/audishos/lhl-map-attack" target="_blank">GITHUB LINK</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Map Attack!<i class="material-icons right">close</i></span>
+                <h5>JavaScript | Bootstrap | NodeJS | EJS | Express | Google Maps API | PostgreSQL</h5>
+                <p>
+                  A full stack application for creating & sharing custom maps with others using the Google Maps API.
+                  Implemented user profile & favourites, the majority of front-end styling and
+                  drove initial planning of requirements and database layout.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="./images/tweeter.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Tweeter<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/audishos/lhl-tweeter" target="_blank">GITHUB LINK</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Tweeter<i class="material-icons right">close</i></span>
+                <h5>JavaScript | jQuery | NodeJS | Express | MongoDB</h5>
+                <p>
+                  A simple full stack SPA twitter clone.
+                  Implemented several features including user registration & authentication,
+                  the functionality for creating and liking tweets, and MongoDB for data persistence.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="./images/tiny_app.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Tiny App<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/audishos/lhl-tiny-app" target="_blank">GITHUB LINK</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Tiny App<i class="material-icons right">close</i></span>
+                <h5>HTML | CSS | NodeJS | Express</h5>
+                <p>
+                  A full stack web application that allows users to shorten long URLs (à la bit.ly). Implemented everything from scratch.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="education">
+      <div class="container">
+        <h2>Education</h2>
+
+        <div class="col s12 m12">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="./images/lhl.png">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <h4>Lighthouse Labs</h4>
+                <h5>Full Time Web Development Bootcamp</h5>
+                <p>Won the competition for best finals application.</p>
+              </div>
+              <div class="card-action">
+                <a href="https://lighthouselabs.ca/web-bootcamp" target="_blank">Website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m12">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="./images/seneca.png">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <h4>Seneca College</h4>
+                <h5>Computer Programming Diploma</h5>
+                <p>Graduated with a 3.5 GPA</p>
+              </div>
+              <div class="card-action">
+                <a href="http://www.senecacollege.ca/programs/fulltime/CPD.html" target="_blank">Website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 

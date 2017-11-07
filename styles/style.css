@@ -26,3 +26,26 @@ header {
   padding: 12px 10px;
   width: 58px;
 }
+
+img.profile-pic {
+  float: left;
+  max-width: 14em;
+  max-height: 14em;
+  border-radius: 10em;
+  padding: 10px;
+  margin: 10px;
+}
+
+.profile-headers {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.card.horizontal .card-image {
+  min-width: 230px;
+}
+
+.card.horizontal .card-image img{
+  height: 230px;
+}
