@@ -21,3 +21,8 @@ header {
 #projects {
   background-color: #eeec6e;
 }
+
+.brand-logo img {
+  padding: 12px 10px;
+  width: 58px;
+}
