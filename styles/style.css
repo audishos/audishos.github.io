@@ -8,9 +8,37 @@ main {
   flex: 1 0 auto;
 }
 
+nav {
+  background-color: #00227b;
+}
+
 header {
-  background-color: #6e79ee;
+  background-color: #3949ab;
   color: white;
+}
+
+#summary {
+  background-color: #E1E2E1;
+}
+
+#tech-skills {
+  background-color: #F5F5F6;
+}
+
+#projects {
+  background-color: #E1E2E1;
+}
+
+#education {
+  background-color: #F5F5F6;
+}
+
+#contact {
+  background-color: #E1E2E1;
+}
+
+footer.page-footer {
+  background-color: #00227b;
 }
 
 p {
@@ -20,10 +48,6 @@ p {
 .devicon-git-plain {
   max-width: 4em;
   margin: 0 16px;
-}
-
-#projects {
-  background-color: #eeec6e;
 }
 
 .brand-logo img {
@@ -57,4 +81,36 @@ img.profile-pic {
 button.btn {
   float: right;
   margin: 0 10px;
+  background-color: #00bfa5;
+  color: #000;
+}
+
+a, i {
+  color: #00bfa5;
+}
+
+.input-field > i, button > i {
+  color: #000;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  color: #00bfa5;
+}
+
+/* label color */
+.input-field label {
+  color: #000;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #00bfa5;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #00bfa5;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #00bfa5;
 }
