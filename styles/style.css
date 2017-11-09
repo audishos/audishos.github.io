@@ -17,6 +17,15 @@ header {
   color: white;
 }
 
+.container {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+h2 {
+  margin-bottom: 1em;
+}
+
 #summary {
   background-color: #E1E2E1;
 }
@@ -39,6 +48,10 @@ header {
 
 footer.page-footer {
   background-color: #00227b;
+}
+
+div.footer-copyright {
+  margin: 0 1em;
 }
 
 p {
